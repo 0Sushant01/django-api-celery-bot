@@ -192,3 +192,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+DEBUG=True
+SECRET_KEY=your-very-secret-key
+
+DB_NAME=yourdbname
+DB_USER=yourdbuser
+DB_PASSWORD=yourdbpassword
+DB_HOST=localhost
+DB_PORT=5432
+
+TELEGRAM_BOT_TOKEN=your-telegram-token
